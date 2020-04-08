@@ -67,7 +67,7 @@ jobs:
     - name: passwall
       run: |
         cd openwrt
-        git clone https://github.com/Lienol/openwrt-package
+        git clone https://github.com/Lienol/openwrt-package Package
            
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
